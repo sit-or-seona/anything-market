@@ -1,4 +1,5 @@
 import { ThemeProvider } from "styled-components";
+import Router from "./router/Router";
 import GlobalStyles from "./style/globalStyles";
 import theme from "./style/theme";
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <ThemeProvider theme={theme}>
         <GlobalStyles />
+        <Router />
       </ThemeProvider>
     </div>
   );

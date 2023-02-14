@@ -40,3 +40,23 @@ export const InputBox = styled.div`
     color: ${({ theme }) => theme.palette.darkGray};
   }
 `;
+
+export const InputCheckbox = styled.input.attrs({
+  type: "checkbox",
+})``;
+
+export const Checkbox = styled.div`
+  input {
+    width: 16px;
+    height: 16px;
+    font-size: 16px;
+    line-height: 20px;
+    vertical-align: bottom;
+  }
+
+  label {
+    font-size: 16px;
+    color: ${({ theme }) => theme.palette.darkGray};
+    vertical-align: text-top;
+  }
+`;

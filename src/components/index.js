@@ -7,4 +7,4 @@ export {
   XSmallButton,
 } from "./common/Button";
 
-export { Input, InputBox, Label } from "./common/Input";
+export { Input, InputBox, Checkbox, InputCheckbox } from "./common/Input";
